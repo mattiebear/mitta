@@ -13,7 +13,7 @@ defmodule Mitta.Template do
         end
       end
 
-      div do
+      div id: "some_id" do
         text("Some nested content")
       end
     end
